@@ -1,0 +1,11 @@
+User-agent: * 
+Disallow: /wp-login.php
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/
+Disallow: /feed/
+Disallow: */feed/
+
+Allow: /wp-content/uploads/
+
+Sitemap: https://website.com/sitemap.xml
