@@ -3,6 +3,8 @@ Disallow: /wp-login.php
 Disallow: /wp-admin/
 Disallow: /wp-includes/
 Disallow: /wp-content/
+Disallow: /readme.html
+Disallow: /refer/
 Disallow: /feed/
 Disallow: */feed/
 
