@@ -1,0 +1,7 @@
+<a href="url_here" target="_blank" > 
+  <img 
+    alt="alternative_here" 
+    title="title_here" 
+    src="img_url.png"
+  /> 
+</a>
