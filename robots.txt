@@ -7,6 +7,8 @@ Disallow: /readme.html
 Disallow: /refer/
 Disallow: /feed/
 Disallow: */feed/
+Disallow: /*.css$
+Disallow: /*.js$
 
 Allow: /wp-content/uploads/
 
