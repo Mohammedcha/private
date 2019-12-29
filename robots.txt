@@ -1,15 +1,33 @@
 User-agent: * 
 Disallow: /wp-login.php
-Disallow: /wp-admin/
-Disallow: /wp-includes/
-Disallow: /wp-content/
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content
+Disallow: /wp-content/plugins
+Disallow: /wp-content/cache
+Disallow: /wp-content/themes
+Disallow: /cgi-bin
+Disallow: /trackback
+Disallow: /blackhole
 Disallow: /readme.html
-Disallow: /refer/
-Disallow: /feed/
-Disallow: */feed/
+Disallow: /refer
+Disallow: /feed
+Disallow: */feed
 Disallow: /*.css$
 Disallow: /*.js$
 
 Allow: /wp-content/uploads/
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Adsbot-Google
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
 
 Sitemap: https://website.com/sitemap.xml
